@@ -3,6 +3,7 @@
 
 # Stock Firmware
   OpenWRT r42647
+  
   BusyBox v1.19.4
 
 # Network
