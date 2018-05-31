@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <Button android:textColor="@color/white" android:id="@+id/showepg_handler_btn" android:background="@drawable/selector_program_list_item" android:layout_width="match_parent" android:layout_height="wrap_content" />
-    <TextView android:background="@color/grey" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
-</LinearLayout>

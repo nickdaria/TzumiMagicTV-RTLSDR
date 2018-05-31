@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <TextView android:textSize="16sp" android:textColor="@color/white" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/group_list_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</LinearLayout>

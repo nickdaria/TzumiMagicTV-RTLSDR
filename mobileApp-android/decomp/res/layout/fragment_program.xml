@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@color/app_background" app:layout_width="match_parent" app:layout_height="match_parent">
-    <FrameLayout app:id="@+id/recycle_layout" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginTop="3dp">
-        <ViewStub app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/viewstub" app:layout="@layout/empty_tips_layout" app:layout_width="wrap_content" app:layout_height="wrap_content" />
-        <android.support.v7.widget.RecyclerView app:id="@+id/gridViewChannels" app:layout_width="match_parent" app:layout_height="wrap_content" />
-    </FrameLayout>
-</LinearLayout>

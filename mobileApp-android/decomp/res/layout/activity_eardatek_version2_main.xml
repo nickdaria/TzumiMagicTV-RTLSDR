@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent" app:keepScreenOn="true">
-    <android.support.design.widget.AppBarLayout app:layout_width="match_parent" app:layout_height="wrap_content">
-        <android.support.v7.widget.Toolbar app:id="@+id/toolbar" app:background="?attr/colorPrimary" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
-    </android.support.design.widget.AppBarLayout>
-    <include layout="@layout/play_program_layout" />
-    <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/lock_unlock" app:tag="unlock" app:visibility="gone" app:clickable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="5dp" app:src="@drawable/unlock" app:scaleType="centerInside" />
-    <android.support.design.widget.FloatingActionButton app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/fab" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginRight="10dp" app:layout_marginBottom="20dp" app:src="@drawable/scan" app:scaleType="fitCenter" app:rippleColor="@color/grey200" app:borderWidth="0dp" app:backgroundTint="#bdbdbd" />
-</android.support.design.widget.CoordinatorLayout>

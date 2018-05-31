@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res-auto">
-    <item app:icon="@drawable/delete" app:id="@+id/edit_list" app:orderInCategory="3" app:title="@string/edit_program_list" app:showAsAction="ifRoom" />
-    <item app:icon="@drawable/setting" app:id="@+id/setting" app:orderInCategory="2" app:title="@string/setting_menu" app:showAsAction="ifRoom" />
-    <item app:icon="@drawable/tv" app:id="@+id/tv" app:orderInCategory="1" app:title="@string/tv" app:showAsAction="ifRoom" />
-</menu>

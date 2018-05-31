@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<set xmlns:android="http://schemas.android.com/apk/res-auto" sweet:interpolator="0x10a000b" sweet:shareInterpolator="true">
-    <alpha sweet:duration="400" sweet:fromAlpha="0.0" sweet:toAlpha="1.0" />
-    <cn.pedant.SweetAlert.Rotate3dAnimation sweet:duration="400" sweet:rollType="0" sweet:fromDeg="100.0" sweet:toDeg="0.0" sweet:pivotX="50%" sweet:pivotY="50%" />
-</set>

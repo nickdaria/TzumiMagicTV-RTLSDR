@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <menu name="menu_eardatek">res/menu/menu_eardatek.xml</menu>
-    <menu name="menu_eardatek_epg">res/menu/menu_eardatek_epg.xml</menu>
-    <menu name="menu_three">res/menu/menu_three.xml</menu>
-    <menu name="menu_three_epg">res/menu/menu_three_epg.xml</menu>
-</resources>

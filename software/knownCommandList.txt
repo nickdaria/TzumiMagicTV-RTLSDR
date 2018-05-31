@@ -1,0 +1,11 @@
+# Tuner Commands
+These commands (credit: parkerlreed) are successfully tested and confirmed to change the channel on the stream. All of these commands are sent the same way the app would send them. I will likely start working on a script for this.
+
+1) Open Port
+  echo -n '<msg type="login_req"><params protocol="TCP" port="8000"/></msg>' | nc 192.168.1.1 6000
+2) Send Command
+  echo -n '<msg type="tune_req"><params tv_type="ATSC" freq="551000" bandwidth="8000" plp="0" programNumber="3"/>
+
+# Power LED:
+  echo 0 > /sys/class/leds/tp-link\:blue\:system/brightness
+  [0=Off 1-255=On]

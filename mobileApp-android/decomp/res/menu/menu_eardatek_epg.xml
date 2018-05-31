@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res-auto">
-    <item app:icon="@mipmap/epg" app:id="@+id/showepg_menu" app:orderInCategory="3" app:title="showepg" app:showAsAction="ifRoom" />
-    <item app:icon="@drawable/delete" app:id="@+id/edit_list" app:orderInCategory="2" app:title="@string/edit_program_list" app:showAsAction="ifRoom" />
-    <item app:icon="@drawable/setting" app:id="@+id/setting" app:orderInCategory="1" app:title="@string/setting_menu" app:showAsAction="ifRoom" />
-</menu>
