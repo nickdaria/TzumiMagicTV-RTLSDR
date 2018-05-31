@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <anim name="abc_fade_in">res/anim/abc_fade_in.xml</anim>
+    <anim name="abc_fade_out">res/anim/abc_fade_out.xml</anim>
+    <anim name="abc_grow_fade_in_from_bottom">res/anim/abc_grow_fade_in_from_bottom.xml</anim>
+    <anim name="abc_popup_enter">res/anim/abc_popup_enter.xml</anim>
+    <anim name="abc_popup_exit">res/anim/abc_popup_exit.xml</anim>
+    <anim name="abc_shrink_fade_out_from_bottom">res/anim/abc_shrink_fade_out_from_bottom.xml</anim>
+    <anim name="abc_slide_in_bottom">res/anim/abc_slide_in_bottom.xml</anim>
+    <anim name="abc_slide_in_top">res/anim/abc_slide_in_top.xml</anim>
+    <anim name="abc_slide_out_bottom">res/anim/abc_slide_out_bottom.xml</anim>
+    <anim name="abc_slide_out_top">res/anim/abc_slide_out_top.xml</anim>
+    <anim name="design_bottom_sheet_slide_in">res/anim/design_bottom_sheet_slide_in.xml</anim>
+    <anim name="design_bottom_sheet_slide_in">res/anim-v21/design_bottom_sheet_slide_in.xml</anim>
+    <anim name="design_bottom_sheet_slide_out">res/anim/design_bottom_sheet_slide_out.xml</anim>
+    <anim name="design_bottom_sheet_slide_out">res/anim-v21/design_bottom_sheet_slide_out.xml</anim>
+    <anim name="design_fab_in">res/anim/design_fab_in.xml</anim>
+    <anim name="design_fab_out">res/anim/design_fab_out.xml</anim>
+    <anim name="design_snackbar_in">res/anim/design_snackbar_in.xml</anim>
+    <anim name="design_snackbar_out">res/anim/design_snackbar_out.xml</anim>
+    <anim name="error_frame_in">res/anim/error_frame_in.xml</anim>
+    <anim name="error_x_in">res/anim/error_x_in.xml</anim>
+    <anim name="item_anim_enter">res/anim/item_anim_enter.xml</anim>
+    <anim name="item_anim_exit">res/anim/item_anim_exit.xml</anim>
+    <anim name="list_item_anim">res/anim/list_item_anim.xml</anim>
+    <anim name="modal_in">res/anim/modal_in.xml</anim>
+    <anim name="modal_out">res/anim/modal_out.xml</anim>
+    <anim name="photo_dialog_in_anim">res/anim/photo_dialog_in_anim.xml</anim>
+    <anim name="photo_dialog_out_anim">res/anim/photo_dialog_out_anim.xml</anim>
+    <anim name="styles">res/anim/styles.xml</anim>
+    <anim name="success_bow_roate">res/anim/success_bow_roate.xml</anim>
+    <anim name="success_mask_layout">res/anim/success_mask_layout.xml</anim>
+    <anim name="zoom_enter">res/anim/zoom_enter.xml</anim>
+    <anim name="zoom_exit">res/anim/zoom_exit.xml</anim>
+</resources>

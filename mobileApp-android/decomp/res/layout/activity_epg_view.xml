@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2d01">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="@color/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/textCaption" android:background="@drawable/mmtitle_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/program_guide" android:layout_alignParentTop="true" android:layout_centerInParent="true" />
+        <ImageView android:id="@+id/go_back" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:src="@drawable/gplus_back" android:maxWidth="30dp" android:maxHeight="30dp" android:layout_alignBottom="@+id/refresh" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@+id/refresh" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4dp" android:src="@drawable/gplus_refresh" android:scaleType="centerInside" android:maxWidth="50dp" android:maxHeight="50dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/TipsFontStyle_Small" />
+    </RelativeLayout>
+    <ListView android:id="@+id/listViewEPG" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+</LinearLayout>

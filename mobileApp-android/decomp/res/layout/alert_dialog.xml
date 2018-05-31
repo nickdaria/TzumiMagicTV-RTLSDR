@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" wheel:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wheel:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wheel:orientation="vertical" wheel:id="@id/loading" wheel:background="@drawable/dialog_background" wheel:padding="10dp" wheel:layout_width="UNKNOWN_DATA_0x7f080082" wheel:layout_height="wrap_content">
+    <ImageView wheel:id="@id/custom_image" wheel:visibility="gone" wheel:layout_width="UNKNOWN_DATA_0x3501" wheel:layout_height="UNKNOWN_DATA_0x3501" wheel:layout_marginTop="5dp" wheel:scaleType="fitCenter" wheel:contentDescription="@string/app_name" />
+    <FrameLayout wheel:id="@id/error_frame" wheel:visibility="gone" wheel:layout_width="UNKNOWN_DATA_0x3501" wheel:layout_height="UNKNOWN_DATA_0x3501" wheel:layout_marginTop="5dp">
+        <View wheel:background="@drawable/error_circle" wheel:layout_width="match_parent" wheel:layout_height="match_parent" />
+        <ImageView wheel:id="@id/error_x" wheel:layout_width="match_parent" wheel:layout_height="match_parent" wheel:src="@drawable/error_center_x" wheel:scaleType="center" wheel:contentDescription="@string/app_name" />
+    </FrameLayout>
+    <FrameLayout wheel:id="@id/success_frame" wheel:visibility="gone" wheel:layout_width="UNKNOWN_DATA_0x3501" wheel:layout_height="UNKNOWN_DATA_0x3501" wheel:layout_marginTop="5dp">
+        <View wheel:background="@drawable/success_bow" wheel:layout_width="match_parent" wheel:layout_height="match_parent" />
+        <View wheel:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" wheel:id="@id/mask_right" wheel:background="0x106000b" wheel:layout_width="UNKNOWN_DATA_0x2301" wheel:layout_height="UNKNOWN_DATA_0x5001" wheel:layout_marginTop="-13dp" />
+        <View wheel:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" wheel:id="@id/mask_left" wheel:background="0x106000b" wheel:layout_width="UNKNOWN_DATA_0x1501" wheel:layout_height="UNKNOWN_DATA_0x3c01" wheel:layout_marginLeft="-3dp" />
+        <View wheel:background="@drawable/success_circle" wheel:layout_width="match_parent" wheel:layout_height="match_parent" />
+        <cn.pedant.SweetAlert.SuccessTickView wheel:id="@id/success_tick" wheel:layout_width="match_parent" wheel:layout_height="match_parent" />
+    </FrameLayout>
+    <FrameLayout wheel:id="@id/warning_frame" wheel:visibility="gone" wheel:layout_width="UNKNOWN_DATA_0x3501" wheel:layout_height="UNKNOWN_DATA_0x3501" wheel:layout_marginTop="5dp">
+        <View wheel:background="@drawable/warning_circle" wheel:layout_width="match_parent" wheel:layout_height="match_parent" />
+        <ImageView wheel:layout_width="match_parent" wheel:layout_height="match_parent" wheel:src="@drawable/warning_sigh" wheel:scaleType="center" wheel:contentDescription="@string/app_name" />
+    </FrameLayout>
+    <FrameLayout wheel:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wheel:orientation="vertical" wheel:id="@id/progress_dialog" wheel:visibility="gone" wheel:layout_width="wrap_content" wheel:layout_height="wrap_content" wheel:layout_marginTop="9dp">
+        <com.pnikosis.materialishprogress.ProgressWheel wheel:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wheel:id="@id/progressWheel" wheel:layout_width="UNKNOWN_DATA_0x5001" wheel:layout_height="UNKNOWN_DATA_0x5001" wheel:progressIndeterminate="true" />
+    </FrameLayout>
+    <TextView wheel:textSize="19sp" wheel:textColor="#575757" wheel:id="@id/title_text" wheel:layout_width="wrap_content" wheel:layout_height="wrap_content" wheel:layout_marginTop="10dp" wheel:text="@string/dialog_default_title" wheel:singleLine="true" />
+    <TextView wheel:textSize="14sp" wheel:textColor="#797979" wheel:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wheel:id="@id/content_text" wheel:visibility="gone" wheel:layout_width="wrap_content" wheel:layout_height="wrap_content" wheel:layout_marginTop="10dp" />
+    <LinearLayout wheel:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wheel:layout_width="match_parent" wheel:layout_height="wrap_content" wheel:layout_marginTop="10dp">
+        <Button wheel:id="@id/cancel_button" wheel:background="@drawable/gray_button_background" wheel:visibility="gone" wheel:layout_marginRight="10dp" wheel:text="@string/dialog_cancel" style="@style/dialog_blue_button" />
+        <Button wheel:id="@id/confirm_button" wheel:text="@string/dialog_ok" style="@style/dialog_blue_button" />
+    </LinearLayout>
+</LinearLayout>

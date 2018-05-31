@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">labswitch</string>
+    <string name="function_lab">功能实验室</string>
+    <string name="function_lab_trips">实验性功能预览，重启APP后生效</string>
+    <string name="lab_fun_bridge">桥接模式</string>
+    <string name="lab_fun_codec">视频编码显示</string>
+    <string name="lab_fun_epg">EPG显示</string>
+    <string name="lab_fun_record">录像功能</string>
+    <string name="lab_fun_signal">信号强度显示</string>
+    <string name="lab_fun_support_all">取消WIFI名验证</string>
+    <string name="lab_fun_support_old">支持更多的WIFI名</string>
+</resources>

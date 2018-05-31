@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#0e4e8b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+    <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/first" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_circle_32" android:scaleType="fitXY" />
+    <View android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@color/white" android:layout_width="UNKNOWN_DATA_0x401" android:layout_height="UNKNOWN_DATA_0x501" android:minHeight="2dp" />
+    <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_hollow_circle_32" android:scaleType="fitXY" />
+    <View android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@color/white" android:layout_width="UNKNOWN_DATA_0x401" android:layout_height="UNKNOWN_DATA_0xa01" android:minHeight="2dp" />
+    <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/three" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_hollow_circle_32" android:scaleType="fitXY" />
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="setting_signal_height">250.0dip</dimen>
+    <dimen name="setting_signal_width">250.0dip</dimen>
+    <dimen name="abc_config_prefDialogWidth">440.0dip</dimen>
+    <item type="dimen" name="abc_dialog_fixed_height_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_height_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_min_width_major">54.999996%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">79.99999%</item>
+    <dimen name="company_logo_height">150.0dip</dimen>
+    <dimen name="company_logo_size">250.0dip</dimen>
+    <dimen name="company_text_size">18.0sp</dimen>
+    <dimen name="connecting_text_size">27.0sp</dimen>
+    <dimen name="next_height">60.0dip</dimen>
+    <dimen name="next_margintop_size">40.0dip</dimen>
+    <dimen name="next_paddingleft_size">15.0dip</dimen>
+    <dimen name="next_padingright_size">15.0dip</dimen>
+    <dimen name="next_text_size">22.0sp</dimen>
+    <dimen name="next_width">200.0dip</dimen>
+    <dimen name="setting_ThumbSize">30.0dip</dimen>
+    <dimen name="setting_china">27.0sp</dimen>
+    <dimen name="setting_english">27.0sp</dimen>
+    <dimen name="setting_language">30.0sp</dimen>
+    <dimen name="setting_margin">100.0dip</dimen>
+    <dimen name="setting_padding">10.0dip</dimen>
+    <dimen name="setting_padding_left">100.0dip</dimen>
+    <dimen name="setting_padding_right">100.0dip</dimen>
+    <dimen name="setting_signal_status">27.0sp</dimen>
+    <dimen name="setting_signal_strength">24.0sp</dimen>
+    <dimen name="setting_signal_strength_percent">30.0sp</dimen>
+    <dimen name="setting_standard">27.0sp</dimen>
+    <dimen name="surface_height">550.0dip</dimen>
+    <dimen name="version_text_size">22.0sp</dimen>
+    <dimen name="wecome_text_size">27.0sp</dimen>
+</resources>

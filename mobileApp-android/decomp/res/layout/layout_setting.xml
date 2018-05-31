@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@drawable/bg_search_dialog" android:paddingTop="5dp" android:layout_width="UNKNOWN_DATA_0x15e01" android:layout_height="wrap_content">
+    <TextView android:textSize="20sp" android:textColor="@color/black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/content" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/function_lab" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/function_lab_trips" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:textSize="18sp" android:textColor="@color/black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lab_bridge_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/lab_fun_bridge" style="?unknown_attr_ref: 101032f" />
+                <CheckBox android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lab_bridge_mode_choice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:textSize="18sp" android:textColor="@color/black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lab_show_epg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/lab_fun_epg" style="?unknown_attr_ref: 101032f" />
+                <CheckBox android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lab_show_epg_choice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <CheckBox android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lab_show_strength_choice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" />
+                <Button android:textSize="18sp" android:textColor="@color/black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lab_show_strength" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/lab_fun_signal" style="?unknown_attr_ref: 101032f" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:textSize="18sp" android:textColor="@color/black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lab_show_codec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/lab_fun_codec" style="?unknown_attr_ref: 101032f" />
+                <CheckBox android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lab_show_codec_choice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:textSize="18sp" android:textColor="@color/black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lab_support_wifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/lab_fun_support_old" style="?unknown_attr_ref: 101032f" />
+                <CheckBox android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lab_support_wifi_choice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:textSize="18sp" android:textColor="@color/black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lab_support_all_wifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/lab_fun_support_all" style="?unknown_attr_ref: 101032f" />
+                <CheckBox android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lab_support_all_wifi_choice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:textSize="18sp" android:textColor="@color/black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lab_record_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/lab_fun_record" style="?unknown_attr_ref: 101032f" />
+                <CheckBox android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lab_record_mode_choice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" />
+            </FrameLayout>
+            <TextView android:id="@id/lab_version" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

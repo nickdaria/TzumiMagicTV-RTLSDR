@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="wrap_content" app:cardBackgroundColor="#0e4e8b" app:cardCornerRadius="5dp">
+    <RelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <include app:id="@+id/timeshift_layout" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_centerHorizontal="true" layout="@layout/timeshift" />
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_toRightOf="@+id/timeshift_layout" app:layout_alignParentRight="true">
+            <TextView app:textSize="14sp" app:textColor="@color/white" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/epg_time" app:padding="5dp" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="5dp" app:text="@string/pm_2_30" />
+            <TextView app:textSize="12sp" app:textColor="#0e4e8b" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/epg_name" app:background="@color/white" app:paddingLeft="10dp" app:paddingTop="5dp" app:paddingRight="10dp" app:paddingBottom="5dp" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="5dp" app:layout_marginTop="10dp" app:text="TV Show 1" />
+            <TextView app:textSize="14sp" app:textColor="@color/white" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/epg_program_detail" app:paddingLeft="10dp" app:paddingTop="5dp" app:paddingRight="10dp" app:paddingBottom="5dp" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="5dp" app:layout_marginTop="20dp" app:text="TV Show 1" />
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

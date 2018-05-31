@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+    <TextView android:textSize="20sp" android:textColor="@color/defaultTextColor" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/on_top_tv" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/settop" />
+    <View android:background="#e0e0e0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x33333331" />
+    <TextView android:textSize="20sp" android:textColor="@color/defaultTextColor" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/cancel_top_tv" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cancel_top" />
+</LinearLayout>

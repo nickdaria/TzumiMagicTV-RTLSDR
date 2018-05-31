@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@color/white" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.eardatek.special.player.widget.CustomToolbar app:id="@+id/toolbar_scan" app:background="?attr/colorPrimary" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="?attr/actionBarSize" app:title="@string/scan" app:navigationIcon="@drawable/back" />
+    <ProgressBar app:id="@+id/progressbar" app:layout_width="match_parent" app:layout_height="wrap_content" style="?unknown_attr_ref: 1010078" />
+    <RelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <TextView app:textSize="24sp" app:textColor="@color/black" app:id="@+id/tv_show_info1" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_alignParentTop="true" app:layout_centerHorizontal="true" />
+        <com.eardatek.special.player.widget.RadarSearchView app:id="@+id/radar_search_view" app:layout_width="match_parent" app:layout_height="match_parent" />
+        <TextView app:textSize="24sp" app:textColor="@color/black" app:id="@+id/tv_show_info2" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginBottom="324dp" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

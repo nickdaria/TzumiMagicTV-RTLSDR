@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="advance_search_text_size">12.0sp</dimen>
+    <dimen name="channelname_text_size">20.0sp</dimen>
+    <dimen name="dialog_cancel">14.0sp</dimen>
+    <dimen name="dialog_search_text_size">14.0sp</dimen>
+    <dimen name="dialog_title_size">18.0sp</dimen>
+    <dimen name="duration_text_size">10.0sp</dimen>
+    <dimen name="edittext_hint_text_size">14.0sp</dimen>
+    <dimen name="epg_info_text_size">16.0sp</dimen>
+    <dimen name="epg_item_time_text_size">14.0sp</dimen>
+    <dimen name="program_name_text_size">14.0sp</dimen>
+    <dimen name="progress_height_dimens">80.0dip</dimen>
+    <dimen name="progresswheel_text_size">16.0sp</dimen>
+    <dimen name="progresswheel_width_dimens">80.0dip</dimen>
+    <dimen name="setting_signal_height">135.0dip</dimen>
+    <dimen name="setting_signal_width">135.0dip</dimen>
+    <dimen name="tips_text_size">18.0sp</dimen>
+</resources>
