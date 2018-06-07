@@ -9,9 +9,9 @@
   This repo is split into a simple hierarchy mainly divided by hardware and software. There is also a software-findings folder that details observed behaviors with the stock firmware. Finally, there is a mobileApp-android folder with a copy of the mobile app and a teardown.
 
 # Credits
-  ParkerLReed (IRC: ParkerL)
-  IRC: iKitsune
-  nickfromstatefarm (IRC: nickfromstatefar, nick-d)
+  * parkerlreed (IRC: ParkerR)
+  * IRC: iKitsune
+  * nickfromstatefarm (IRC: nickfromstatefar, nick-d)
 
 # License
   I specifically chose The Unlicense for this project so anyone can use this work. It is a culmination of my work, and other on the /r/rtlsdr subreddit (including IRC.) Feel free to use what you need, just let us know if you find anything that could help.
