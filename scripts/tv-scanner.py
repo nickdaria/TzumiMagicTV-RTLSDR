@@ -33,4 +33,6 @@ for i in CHOICES:
     except socket.timeout:
         continue
 
-print(CHANLIST)
+print("Possible valid channels around you: ")
+for i in CHANLIST:
+    print(CHOICES.index(int(i)) + 1)
