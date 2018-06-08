@@ -12,6 +12,10 @@ You can get your local channel mappings from https://www.tablotv.com/tools/
 
 py3 version for Python 3. In Python 2 strings sent over a socket were already byte streams. Python 3 requires the data to be explicitly formatted as a byte stream.
 
+### Note about subchannels
+
+So one channel I was viewing has the same stream on 0 and 1 making me think both referrenced the same across all channels. This is not the case. Other channels I have been trying only have a stream on 0 (the actual first subchannel). When passing subchannel to the script, start at 0. I had the conversion in there in an earlier version but it caused some issues.
+
 ## tv-scanner.py
 
 Credit: parkerlreed
