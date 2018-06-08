@@ -21,7 +21,6 @@ for i in CHOICES:
     try:
         MESSAGE2 = '<msg type="tune_req"><params tv_type="ATSC" freq="' + str(i) +'000" bandwidth="8000" plp="0" programNumber="0"/></msg>'
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        s2 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         s.settimeout(5)
         s.connect((TCP_IP, TCP_PORT))
         s.send(bytes(MESSAGE2, encoding='utf-8'))
